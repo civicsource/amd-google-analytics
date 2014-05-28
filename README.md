@@ -1,6 +1,6 @@
 # Google Analytics AMD Loading
 
-> AMD loading for google analytics that preserves not blocking the page for the ga.js script.
+> AMD loading for google analytics that preserves not blocking the page for the `analytics.js` script.
 
 ## Install with [Bower](http://bower.io/)
 

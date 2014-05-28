@@ -1,7 +1,7 @@
 {
   "name": "amd-google-analytics",
   "version": "1.0.0",
-  "description": "Simple AMD loading for google analytics that preserves not blocking the page for the ga.js script",
+  "description": "AMD loading for google analytics that preserves not blocking the page for the analytics.js script",
   "main": "ga.js",
   "keywords": [
     "amd",
