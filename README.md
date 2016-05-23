@@ -12,26 +12,11 @@ Then add `ga.js` to your project.
 
 ## How to Use
 
-If using [requirejs](http://requirejs.org/), set your config to the following:
-
-```js
-requirejs.config({
-    config: {
-        ga: {
-            account: 'UA-********-*',
-            domain: 'example.com'
-        }
-    },
-    paths: {
-        ga: 'bower_components/amd-google-analytics/ga'
-    }
-});
-```
-
-Then in any other script file, require it like so:
+Require it like so:
 
 ```js
 define(['ga'], function(ga) {
+    ga('create', 'UA-********-*', 'example.com');
 	ga('send', 'pageview');
 })
 ```
